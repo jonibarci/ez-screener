@@ -20,6 +20,3 @@ feedback about the result, so that the system can learn over time.
 The application can be a desktop or mobile app, or preferably both. In the 
 latter case, code reuse is a big bonus. The app should communicate with 
 a microservices based backend. 
- 
-At Bank Van Breda we develop our API’s using .NET Core 6 and we 
-deploy them using Docker containers, but those are not requirements. 
