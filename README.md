@@ -20,3 +20,22 @@ feedback about the result, so that the system can learn over time.
 The application can be a desktop or mobile app, or preferably both. In the 
 latter case, code reuse is a big bonus. The app should communicate with 
 a microservices based backend. 
+
+
+## Sentiment Analysis Model and Rest API
+
+To provide a grade to a company, we built a sentiment analysis model via the Bag of Words approach within Natural Language Processing (NLP). Each text in the data is broken down by the frequency count that it has. We then labelled a small amount of data (positive or negative), so that we can train a Support Vector Machine (SVM) model on it.
+
+We also built and deployed the model via a rest API on Heroku. You can access the predict endpoing as follows:
+
+ENDPOINT URL = https://bow-api.herokuapp.com/
+
+Example Parameters = {"text": "tesla is a very great company"}
+
+Example Response = {
+    "id": "67",
+    "sentiment": "0",
+    "text": "tesla is a very great company"
+}
+
+A sentiment of 0 indicates a positive article, while a sentiment of -1 indicates a negative article.
