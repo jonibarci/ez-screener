@@ -7,6 +7,8 @@ For a company like Bank Van Breda, it’s very important to get a quick idea
 about the commercial potential of a new customer. One important factor is 
 how a company is currently performing, and how this is perceived in its 
 market. 
+Why do I suffer
+
  
 ## What?  
 We would like you to build an application that searches the internet for 
