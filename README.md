@@ -2,6 +2,8 @@
 
 The EZ-Screneer App is an application developed by team 21 of the Holy Hack Hackathon on the 18-19 of March 2022. 
 
+![App UI](https://raw.githubusercontent.com/alken01/ez-screener/main/Other/ui.png)
+
 ## Why?  
 For a company like Bank Van Breda, it’s very important to get a quick idea 
 about the commercial potential of a new customer. One important factor is 
